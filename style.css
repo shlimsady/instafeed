@@ -1,0 +1,106 @@
+*{
+/*	border: 3px dotted darkred;*/
+
+}
+
+body{
+	background: #BDBDBD;
+	margin: 0;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+header{
+	margin-bottom: 0px;
+	text-align: center;
+	background: white;
+/*	margin-bottom: 10px;*/
+}
+
+h1{
+	margin: 0px;
+	padding: 10px;
+}
+
+
+.post{
+	background: white;
+/*	width: 400px;*/
+/*	margin-top: auto;*/
+}
+
+.post img{
+	background: white;
+	width: 100%;
+/*	margin: auto;*/
+}
+
+/*.heading{*/
+	margin: 0px;
+}
+
+span{
+/*	background: grey;*/
+	color:gray;
+}
+
+div.post h2,
+div.post span{
+	margin: 0px;
+	padding: 10px;
+	text-align: left;
+}
+
+div.post .post-header div:first-child  {
+	display: inline-block;
+/*	box-sizing: content-box; */
+	padding: 0px;
+	margin: 0px;
+/*	background: green;*/
+	width: 80%;
+}
+
+div.post .post-header div:last-child{
+	display: inline-block;
+/*	box-sizing: content-box;*/
+/*	background: blue;*/
+	width: 20%;
+	text-align: right;
+	color: gray;
+}
+
+/*.post-header{*/
+	width: 80%;
+	float: left;
+	margin: 0px;
+}
+
+.title{
+	text-align: left;
+}
+
+/*h2{*/
+	text-align: left;
+	float: left;
+	margin: 0px;
+}
+
+.imagen{
+	margin: 0px;
+/*	width: 100%;*/
+}
+
+.bottom-text p{
+	text-align: left;
+	padding: 10px;
+	margin: 0px;
+/*	display: inline-block;*/
+}
+
+.container{
+	width: 600px;
+	margin: auto;
+	margin-bottom: 10px;
+}
